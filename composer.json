@@ -1,0 +1,27 @@
+{
+    "name": "5queezer/php",
+    "description": "test swetest aspects",
+    "autoload": {
+        "psr-4": {
+            "5queezer\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christian Pojoni",
+            "email": "dev@pojoni.at"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:5queezer/sweph-api.git"
+        }
+    ],
+    "require": {
+        "5queezer/swetest": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
